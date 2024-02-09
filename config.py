@@ -1,3 +1,4 @@
+
 # Codexbotz # @mrismanaziz
 
 import logging
@@ -10,8 +11,8 @@ load_dotenv("config.env")
 
 BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
 
-API_ID = int(os.environ.get("API_ID", "20164514"))
-API_HASH = os.environ.get("API_HASH", "9087e396a5c9b11c123f625876a39384")
+API_ID = int(os.environ.get("API_ID", "24541172"))
+API_HASH = os.environ.get("API_HASH", "55973f050a75d1bd7597a9f9f109dc9f")
 
 CHANNEL_DB = int(os.environ.get("CHANNEL_DB", "-1002135557347"))
 MONGO_URL = os.environ.get("MONGO_URL", "mongodb+srv://sila:bot123@cluster0.byiuh4o.mongodb.net/?retryWrites=true&w=majority")
